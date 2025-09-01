@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(32, 73, 150);
+    background-image: url('sea.jpeg'); 
+    background-size: cover;
+    background-position: center; 
+    
+    opacity: 0.8;
+}
+h1{
+    background-color: blueviolet;
+    opacity: 0.7;
+}
