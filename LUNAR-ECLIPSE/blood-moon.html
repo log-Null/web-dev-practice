@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lunar Eclipse</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: black; /* night sky */
+      position: relative; /* needed for absolute text positioning */
+    }
+
+    /* The Moon */
+    .moon {
+      width: 150px;
+      height: 150px;
+      background: lightgray; /* Moon color */
+      border-radius: 50%;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 0 30px 10px rgba(255, 255, 200, 0.5); /* glow effect */
+    }
+
+    /* Earth's shadow */
+    .shadow {
+      width: 150px;
+      height: 150px;
+      background: black;
+      border-radius: 50%;
+      position: absolute;
+      left: -150px; /* start off-screen */
+      top: 0;
+      animation: eclipse 10s infinite linear; /* slow movement */
+    }
+
+    @keyframes eclipse {
+      0% { left: -150px; }
+      50% { left: 0; }
+      100% { left: -150px; }
+    }
+
+    /* Text above the Moon */
+    .text {
+      position: absolute; /* floats over the page */
+      top: 20px;          /* distance from top */
+      left: 50%;          /* center horizontally */
+      transform: translateX(-50%);
+      color: white;
+      font-size: 24px;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="moon">
+    <div class="shadow"></div>
+  </div>
+
+  <div class="text" style="font-family: 'Courier New', Courier, monospace;">BLOOD MOON
+    <br>
+    SEPTEMBER 7, 2025
+  </div>
+</body>
+</html>
