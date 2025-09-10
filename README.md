@@ -1,5 +1,5 @@
 # 
-This repository contains all the projects, exercises, and experiments I completed while learning full-stack web development over 8 days. It covers HTML, CSS, JavaScript, and basic backend concepts.
+This repository contains all the projects, exercises, and experiments I completed while learning full-stack web development over 8 days.. It covers HTML, CSS, JavaScript, and basic backend concepts.
 ---
 
 ##  What I Learned
