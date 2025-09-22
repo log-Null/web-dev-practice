@@ -6,6 +6,6 @@ This repository contains all the projects, exercises, and experiments I complete
 - Building HTML pages and structuring content
 - Styling with CSS and responsive design basics.
 - basic JavaScript functionality.
-- Combining front-end and back-end for full-stack projects
+- Combining front-end and back-end for full-stack projects.
 
 ---
